@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./theme/frontend/css/output.css" />
+    <link rel="stylesheet" href="./theme/frontend/font/baloo/stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="./theme/frontend/font/nuntito/stylesheet.css"
+    />
+    <link rel="stylesheet" href="./theme/frontend/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./theme/frontend/css/main.css" />
+    <title>Home</title>
+    <style>
+      .font_baloo {
+        font-family: "Baloo 2";
+      }
+      
+      .font_nunito {
+        font-family: "Nunito";
+      }
+      
+      .text-stroke {
+        -webkit-text-stroke-width: 6px;
+      
+        -webkit-text-fill-color: #ffb732;
+      
+        /* Màu viền */
+        background: linear-gradient(180deg, #ff6333 0%, #6f73c8 100%);
+      
+        background-clip: text;
+        color: transparent;
+        /* Màu chữ  */
+      
+        /* text-shadow: -1px -1px 0 #ffb732, 1px -1px 0 #ff6333, -1px 1px 0 #FF6333,
+          1px 1px 0 #ff6333; */
+        /* Tạo hiệu ứng viền đậm hơn */
+      }
+      
+      .text-stroke_orange {
+        -webkit-text-stroke-width: 4px;
+        -webkit-text-fill-color: #6f73c8;
+        /* Màu viền */
+        background: linear-gradient(41.21deg, #ffb732 22.18%, #ff6333 90.96%);
+        background-clip: text;
+        color: transparent;
+      }
+      
+      .bg_linear_grendent {
+        width: 100%;
+        height: 164px;
+        position: absolute;
+        background: linear-gradient(
+          180deg,
+          #fff 51.75%,
+          rgba(255, 255, 255, 0.49) 68%,
+          rgba(255, 255, 255, -0.3) 98%
+        );
+      }
+      
+      .box_img_about {
+        height: 600px;
+        margin-top: auto;
+      }
+      
+      .box_img_about img {
+        height: 100%;
+      }
+      
+      .text_E {
+        color: white;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <!-- banner -->
+    <section class="Banner_home">
+      <div
+        class="bg-[url('./theme/frontend/img/baner.png')] bg-center bg-cover bg-no-repeat relative flex"
+        style="background-image: url('./theme/frontend/img/banner_2.jpg')"
+      >
+        <div
+          class="bg_linear_grendent left-[-46%] rotate-[-90deg] hidden xl:block"
+        ></div>
+        <div class="container mx-auto px-3 xl:px-0">
+          <div class="w-full xl:w-1/2">
+            <div class="xl:mt-60 mt-4">
+              <p
+                class="text-3xl xl:text-5xl uppercase font_baloo font-semibold mb-5 text-stroke"
+              >
+                Manga Webtoon
+              </p>
+              <p
+                class="text-5xl xl:text-7xl uppercase font_baloo font-semibold text-stroke"
+              >
+                Endless Stories
+              </p>
+            </div>
+
+            <p class="text-2xl xl:text-4xl text-primary mt-6 mb-8 xl:mb-44">
+              Unlimited Access to the Best Manga, Webtoons, Comics, and Manhua
+            </p>
+            <div class="flex mb-20">
+              <a href="" class="mr-4">
+                <img src="./theme/frontend/img/dow1.png" alt="" /></a
+              ><a href="" class="mr-4"
+                ><img src="./theme/frontend/img/dow2.png" alt="" /></a
+              ><a href="" class="mr-4"
+                ><img src="./theme/frontend/img/dow3.png" alt=""
+              /></a>
+            </div>
+          </div>
+
+          <div class="xl:absolute right-0 top-0 z-10">
+            <div class="flex mt-12">
+              <div><img src="./theme/frontend/img/phone.png" alt="" /></div>
+              <div><img src="./theme/frontend/img/people.png" alt="" /></div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg_linear_grendent bottom-[-8%] rotate-[-180deg] hidden xl:block"
+        ></div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about_home xl:mt-28">
+      <div class="text-center container mx-auto px-3 xl:px-0">
+        <p
+          class="text-3xl xl:text-5xl uppercase font_baloo font-bold mb-5 text-stroke_orange"
+        >
+          About MangA webtoon
+        </p>
+        <p
+          class="text-3xl xl:text-5xl uppercase font_baloo font-bold mb-5 text-stroke"
+        >
+          Your Gateway to Unlimited Stories
+        </p>
+        <p class="w-6/12 mx-auto">
+          Explore a vast library of
+          <strong>manga, webtoons, comics,</strong> and
+          <strong>manhua</strong> with seamless access across all devices. Enjoy
+          captivating stories and the latest releases anytime, anywhere.
+        </p>
+      </div>
+      <div
+        class="bg-cover bg-no-repeat relative"
+        style="background-image: url(./theme/frontend/img/banner_about.png)"
+      >
+        <div class="flex justify-center relative z-10">
+          <div class="hidden md:block box_img_about">
+            <img src="./theme/frontend/img/people_luffy.png" alt="" />
+          </div>
+          <div class="mb-32">
+            <img src="./theme/frontend/img/phone_about.png" alt="" />
+          </div>
+          <div class="hidden md:block box_img_about">
+            <img src="./theme/frontend/img/people_1.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="bg_linear_grendent bottom-0 rotate-[-180deg] hidden xl:block"
+        ></div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+      <div class="container mx-auto px-3 xl:px-0 mt-32">
+        <p
+          class="text-3xl xl:text-5xl uppercase font_baloo font-semibold text-stroke"
+        >
+          Key Features
+        </p>
+
+        <div></div>
+        <div></div>
+      </div>
+    </section>
+
+    <!-- Devices -->
+    <section class="mt-24">
+      <div
+        class="bg-no-repeat bg-cover bg-center"
+        style="background-image: url(./theme/frontend/img/bg_Device.jpg)"
+      >
+        <p
+          class="text-3xl xl:text-5xl uppercase font_baloo font-semibold text-center py-8 text_E"
+        >
+          Experience across multiple devices
+        </p>
+        <div>
+          <img class="mx-auto" src="./theme/frontend/img/screen.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <script src="./theme/frontend/js/swiper-bundle.min.js"></script>
+    <script src="./theme/frontend/js/main.js"></script>
+  </body>
+</html>
